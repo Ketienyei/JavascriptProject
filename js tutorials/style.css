@@ -1,0 +1,34 @@
+ .form {
+    width: 40%;
+    padding: 30px 100px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+
+  }
+  input[type=text] {
+    padding:10px;
+    margin:10px 0; 
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    align-items: center;
+  }
+
+  input[type=text]:hover {
+    background-color: lavenderblush;
+    border-color: blue;
+
+  }
+
+  button {
+   padding:20px 10px;
+   border:none;
+   background: #ff0cbf;
+   font-weight:600;
+   border-radius:10px;
+   width:40%
+  }
+  button :hover{
+    background-color: blue;
+    border-color: blueviolet;
+  }
+  
